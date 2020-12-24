@@ -1,4 +1,4 @@
-# Spring Boot & MyBatis-plus 实现读写分离
+# 示例说明
 
 [springboot-dynamicds-raw-separation:](https://github.com/zhu-rundong/SpringBoot-raw-separation/tree/main/springboot-dynamicds-raw-separation)
 
