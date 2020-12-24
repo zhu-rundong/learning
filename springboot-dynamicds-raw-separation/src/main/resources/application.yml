@@ -1,0 +1,25 @@
+application:
+  server:
+    db:
+      primary:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3316/ms_test?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+        username: repl
+        password: 123456
+      secondary-read1:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3317/ms_test?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+        username: repl
+        password: 123456
+      secondary-read2:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3318/ms_test?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+        username: repl
+        password: 123456
+      secondary-read3:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3319/ms_test?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+        username: repl
+        password: 123456
+server:
+  port: 8090
