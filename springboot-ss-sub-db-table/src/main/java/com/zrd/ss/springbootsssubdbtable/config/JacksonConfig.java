@@ -5,7 +5,6 @@ import java.math.BigInteger;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 /**
  * @Description 类型转换，解决spring boot 返回json数据long型精度丢失问题
@@ -19,10 +18,9 @@ public class JacksonConfig {
      */
     @Bean
     public Jackson2ObjectMapperBuilderCustomizer jackson2ObjectMapperBuilderCustomizer() {
-        Jackson2ObjectMapperBuilderCustomizer cunstomizer = jacksonObjectMapperBuilder -> {
+        return jacksonObjectMapperBuilder -> {
             jacksonObjectMapperBuilder.serializerByType(BigInteger.class, ToStringSerializer.instance);
             jacksonObjectMapperBuilder.serializerByType(Long.class, ToStringSerializer.instance);
         };
-        return cunstomizer;
     }
 }
