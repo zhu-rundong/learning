@@ -1,4 +1,4 @@
-# 汇总整理工作学习中的一些Demo示例及常用代码（Evernote笔记整理迁移）
+# 目录结构
 
 [springboot-dynamicds-raw-separation](https://github.com/zhu-rundong/SpringBoot-raw-separation/tree/main/springboot-dynamicds-raw-separation)
 
@@ -11,3 +11,7 @@
 [springboot-ss-sub-db-table](https://github.com/zhu-rundong/learning/tree/main/springboot-ss-sub-db-table)
 
 >Spring Boot 2.4.0 + mybatis-plus3.3.2 + shardingsphere5.0.0-alpha 实现水平分库分表，共拆分2个库，每个库分16张表
+
+[springboot-ss-atomikos-xa](https://github.com/zhu-rundong/learning/tree/main/springboot-ss-atomikos-xa)
+
+>Spring Boot 2.4.0 + mybatis-plus3.3.2 + shardingsphere5.0.0-alpha 水平分库分表，共拆分2个库，每个库分2张表，模拟基于Atomikos XA 的分布式事务操作
