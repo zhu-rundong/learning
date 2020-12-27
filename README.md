@@ -1,4 +1,4 @@
-# 工程说明
+# 汇总整理工作学习中的一些Demo示例及常用代码（Evernote笔记整理迁移）
 
 [springboot-dynamicds-raw-separation](https://github.com/zhu-rundong/SpringBoot-raw-separation/tree/main/springboot-dynamicds-raw-separation)
 
@@ -8,4 +8,6 @@
 
 >Spring Boot 2.4.0 + mybatis-plus3.3.2 + shardingsphere5.0.0-alpha 实现读写分离。
                                    
+[springboot-ss-sub-db-table](https://github.com/zhu-rundong/learning/tree/main/springboot-ss-sub-db-table)
 
+>Spring Boot 2.4.0 + mybatis-plus3.3.2 + shardingsphere5.0.0-alpha 实现水平分库分表，共拆分2个库，每个库分16张表
